@@ -1,1 +1,3 @@
 # MealMate
+
+My project, MealMate, is an innovative website tailored to meet the dietary needs of students and individuals living away from home, ensuring they receive proper meals on time. MealMate features a robust database that meticulously stores user details and mess information, facilitating a seamless user experience. The website's standout feature is its geolocation filter, which allows users to find mess options based on their current location effortlessly. Additionally, MealMate provides a direct call and chat option, enabling users to communicate with vendors without any third-party interference. This project aims to bridge the gap between users and meal providers, offering a convenient and efficient solution for daily meal requirements.
