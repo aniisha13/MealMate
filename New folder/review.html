@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Generated Content</title>
+<link rel="stylesheet" href="review.css">
+</head>
+<body>
+  
+<h2>Submit Your Review</h2>
+
+<form id="reviewForm">
+  <label for="userName">Name:</label><br>
+  <input type="text" id="userName" name="userName" placeholder="name"><br>
+  
+  <label for="userEmail">Email:</label><br>
+  <input type="email" id="userEmail" name="userEmail" placeholder="email"><br>
+  
+  <label for="userReview">Review:</label><br>
+  <textarea id="userReview" name="userReview" rows="4" cols="50" placeholder="suggestion"></textarea><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+document.getElementById("reviewForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+  
+  // Get form data
+  var userName = document.getElementById("userName").value;
+  var userEmail = document.getElementById("userEmail").value;
+  var userReview = document.getElementById("userReview").value;
+  
+  // You can process the form data here, for example, send it to a server using AJAX
+  
+  // Clear form fields after submission
+  document.getElementById("userName").value = "";
+  document.getElementById("userEmail").value = "";
+  document.getElementById("userReview").value = "";
+  
+  // Provide feedback to the user (optional)
+  alert("Thank you for your review!");
+});
+</script>
+
+</body>
+</html>

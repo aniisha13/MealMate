@@ -1,0 +1,294 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MealMate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li class="menu"><a href="#home">Home</a></li>
+                <li class="menu"><a href="#about">About us</a></li>
+                <ul class="menu">
+                    <li><a href="#Explorebutton">Explore</a>
+                    </li>
+                </ul>
+                <li class="menu"><a href="#contact us">Contact us</a></li>
+                <li class="menu"><a href="./index.html">Login/Signup</a></li>
+            </ul>
+          
+            <div class="logo">
+                <img src="img/mainlogo_reverse.png" alt="logo">
+            </div>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Eat Right Food</h1>
+            <p>Eat Healty, it is good for our health.</p>
+            <a href="#Explorebutton" class="btn btn-primary">Explore</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">MealMate</p>
+                <h2>Your ultimate guide to hassel-free food choices in Indore!</h2>
+                <p>
+                    Mealmate makes your tummy happy without
+                    <br>
+                    hurting your wallet.
+                </p>
+                <p>
+                    Mealmate simplifies your search for quality tiffin 
+                    <br>
+                    services, providing detailed information,
+                    <br>
+                    prices and enticing visuals.
+                    <br>
+                    <br>
+                    <h3>
+                        "Welcome to Mealmate"
+                    </h3>
+                </p>
+                
+            </div>
+            <div class="about-img">
+                <img src="./img/thali.png" alt="food" />
+            </div>
+        </div>         
+    </section>
+    
+    <section id="Explorebutton">
+        <h2 class="food-menu-heading">Explore</h2>
+        <div class="button-container">
+            <button id="all">All</button>
+            <button id="vijaynagar">Vijaynagar</button>
+            <button id="palasiya">Palasiya</button>
+            <button id="other">Others</button>
+        </div>
+        
+
+        <div class="hostel-card" data-location="vijaynagar">
+            <!-- Mess card content for Vijay Nagar -->
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="./img/fusion canteen.png" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">The Fusion Canteen</h2>
+                    <p>
+                        Location:Plot No 4, Scheme 54 Pu4, Indore - 452001 (Near Country Inn Hotel)
+                        <br>
+                        Contact: 9575009131
+                    </p>
+                    <p class="food-price">Price:1500-2000 &#8377; </p>
+                    <div class="buttons">
+                        <a href="tel:+919575009131" class="btn btn-call">Call</a>
+                        <a href="https://wa.me/919575009131" class="btn btn-chat">Chat</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="./img/kanan mess.png" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Kanan Homes And Mess</h2>
+                    <p>
+                        Location:Plot 59, Scheme 78, Part 2, Vijay Nagar, Indore - 452010 (Near Prestige College)
+                        <br>
+                        Contact: 6269348284
+                    </p>
+                    <p class="food-price">Price:2500-3000 &#8377; </p>
+                    <div class="buttons">
+                        <a href="tel:+916269348284" class="btn btn-call">Call</a>
+                        <a href="https://wa.me/916269348284" class="btn btn-chat">Chat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hostel-card" data-location="palasiya">
+            <!-- Mess card content for Palasiya -->
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="./img/samarth mess.png" alt="error" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Samarth Mess</h2>
+                    <p>
+                        Location:Temple, Kailash Park, Colony, Manoramaganj
+                        <br>
+                         Indore - 452001 (Opposite Gita Bhawan Road)
+                        <br>
+                        Contact: 8450021465
+                        <br>
+                    </p>
+                    <p class="food-price">Price: 1500-2500 &#8377; </p>
+                    <div class="buttons">
+                        <a href="tel:+918450021465" class="btn btn-call">Call</a>
+                        <a href="https://wa.me/918450021465" class="btn btn-chat">Chat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hostel-card" data-location="other">
+            <!-- Hostel card content for other -->
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="./img/jain canteen.png" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Jain Canteen</h2>
+                    <p>
+                        Location:Labriya Bheru, Gurunanak Timber Market, Labriya Bheru, Indore - 452002
+                        <br>
+                        Contact: 6261408831
+                    </p>
+                    <p class="food-price">Price:2000-3000 &#8377; </p>
+                    <div class="buttons">
+                        <a href="tel:+916261408831" class="btn btn-call">Call</a>
+                        <a href="https://wa.me/916261408831" class="btn btn-chat">Chat</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="./img/shivam bhojanlay.png" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-title">Shivam Bhojnalay</h2>
+                    <p>
+                        Location:922, Khatiwala Tank, Tower Road, Tower Square, Indore - 452001 (Near SBI Bank)
+                        <br>
+                        Contact: 9302188441
+                    </p>
+                    <p class="food-price">Price:2000-2500 &#8377; </p>
+                    <div class="buttons">
+                        <a href="tel:+919302188441" class="btn btn-call">Call</a>
+                        <a href="https://wa.me/919302188441" class="btn btn-chat">Chat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
+
+    <section id="testimonials">
+        <h2 class="testimonial-title">Testimonials</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./img/user1.jpg" alt="" />
+                        <p class="customer-name">Dishansh Tiwari</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="testimonial-text">
+                    Living far from home can be challenging, but thankfully, MealMate came to my rescue! Their wide range of mess options ensured I never missed a homely meal, no matter how far I was
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./img/user2.jpeg" alt="" />
+                        <p class="customer-name">Anisha Rathore</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p class="testimonial-text">
+                    MealMate isn't just a website; it's a lifeline for those of us living away from home. Their diverse selection of mess options allowed me to explore different cuisines while ensuring I never missed out on a nutritious meal.
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./img/user3.avif" alt="" />
+                        <p class="customer-name">Aditya Tiwari</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p class="testimonial-text">
+                    MealMate truly understands the needs of those living far from home. Their platform provided me with peace of mind, knowing that I could easily find and access quality mess options that met my dietary requirements and budget
+                </p>
+
+            </div>
+        </div>
+        <div class="feedback-button">
+            <button  id="feedback"><a href="./review.html">Leave your mark!</a></button>
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <div class="contact-container container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contact Us:</h2>
+                    <br>
+                    <p>Phone: 123-456-7890</p>
+                    <p>Email: info@example.com</p>
+                    <div class="social-media">
+                        <a href="#" class="social-link"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-threads"></i></a>
+                    </div>
+                </div>
+                <div class="contact-img">
+                    <img src="./img/contact.webp" alt="Contact Image" />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <h2>Mealmate &copy; all rights reserved</h2>
+    </footer>
+    <!-- .................../ JS Code for smooth scrolling /...................... -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
